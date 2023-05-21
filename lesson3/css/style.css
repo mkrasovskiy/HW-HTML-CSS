@@ -2,52 +2,121 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
 .top {
     
 }
 .header {
     padding: 40px 0 0 0;
-    margin: 0 0 84px 0;
+    margin: 0 auto 84px auto;
     box-sizing: border-box;
 }
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-wrp {
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+}
 .logo {
-
+    
+}
+.top-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    flex-wrap: wrap;
 }
 .top-menu-item {
 
 }
 .top-menu-item-link {
-
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+.top-menu-item-link-home {
+    color: #F25822;
 }
 .top-info {
-    margin: 0 0 259px 0;
+    display: flex;
+    gap: 39px;
+    margin: 0 auto 259px auto;
 }
 .top-content {
     
 }
 .title {
     margin: 0 0 17px 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
 .subtitle {
     margin: 0 0 37px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 .top-content-btn-wrp {
-
+    display: flex;
+    gap: 72px;
+    align-items: center;
 }
 .top-content-btn {
-
+    display: block;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #F25822;;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
 }
-.top-content-btn-video {
-
+.top-content-btn:hover {
+    background-color: #fff;
+    color: #F25822;
+    cursor: pointer;
+}
+.top-content-btn:active {
+    background-color: #F25822;
+    color: #fff;
+}
+.top-info-link {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #AAAAAA;
 }
 .top-info-img {
 
 }
 .top-logos {
-    padding: 0 0 96px 0;
+    max-width: 1200px;
+    margin: 0 auto 96px auto;
 }
 .top-logos-list {
-
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
 }
 .top-logos-item {
 
