@@ -239,7 +239,6 @@ body {
 @media (max-width: 1024px) and (min-width: 768px) {
     .center {
         max-width: 768px;
-        
     }
     .header-list {
         justify-content: center;
@@ -271,17 +270,14 @@ body {
         margin: 0;
     }
     .promo-title {
-        font-weight: 900;
         font-size: 44px;
         line-height: 53px;
     }
     .promo-subtitle {
-        font-weight: 700;
         font-size: 24px;
         line-height: 29px;
     }
     .promo-subtitle>span {
-        font-weight: 700;
         font-size: 24px;
         line-height: 29px;
         color: #F16D7F;
@@ -309,7 +305,6 @@ body {
         min-height: 116px;
         margin: 0 auto 110px auto;
     }
-    
     .products-title {
         margin-bottom: 72px;
     }
@@ -319,5 +314,82 @@ body {
     }
     .products-button-wrp {
         margin-bottom: 70px;    
+    }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    .center {
+        max-width: 375px;
+    }
+    .header-list {
+        justify-content: center;
+    }
+    .header-list-left {
+        margin-right: 200px;
+    }
+    .header-list-right {
+        gap: 0;
+    }
+    .header-list-right > li:nth-child(1) {
+        margin: 25px 0 26px 0;
+    }
+    .header-list-right > li:nth-child(2) {
+        display: none;
+    }
+    .header-list-right > li:nth-child(3) {
+        display: none;
+    }
+    .promo-items {
+        padding: 148px 56px;
+    }
+    .promo-list {
+        display: none;
+    }
+    .promo-list-content {
+        gap: 15px;
+        margin: 0;
+    }
+    .promo-trait {
+        height: 61px;
+    }
+    .promo-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .promo-subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .promo-subtitle>span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .offer-item {
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+    .offer-item-cover {
+        width: 343px;
+        height: 247px;
+    }
+    .offer-item-cover-accesories {
+        max-width: 343px;
+        min-height: 111px;
+        
+    }
+    .offer-item-cover-accesories {
+        background: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7) ), url(../img/accesories-767.png);
+        max-width: 343px;
+        min-height: 111px;
+        margin: 0 auto 64px auto;
+    }
+    .products-title {
+        margin-bottom: 65px;
+    }
+    .products-list {
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+    .products-button {
+        margin-bottom: 96px;
     }
 }
