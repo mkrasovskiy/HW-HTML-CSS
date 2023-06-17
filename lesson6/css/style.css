@@ -30,6 +30,7 @@ body {
 }
 .header-search-form:hover svg {
     fill: #fad5db;
+    cursor: pointer;
 }
 .header-search {
     width: 20px;
@@ -106,6 +107,7 @@ body {
     display: flex;
     gap: 16px;
     align-items: center;
+    min-width: 405px;
     margin: 290px 331px 381px 63px;
     text-transform: uppercase;
     color: #222222;
@@ -216,15 +218,16 @@ body {
     gap: 30px;
     margin-bottom: 48px;
 }
-.brand-products-item {
+.products-item {
     width: 100%;
     max-width: 360px;
     position: relative;
+    background: #F8F8F8;
   }
-  .brand-products-item:hover .products-item-btn {
+  .products-item:hover .products-item-btn {
     visibility: visible;
   }
-  .brand-products-item:hover .products-item-link::before {
+  .products-item:hover .products-item-link::before {
     content: "";
     display: block;
     width: 100%;
@@ -628,6 +631,7 @@ body {
     .promo-list-content {
         gap: 15px;
         margin: 0;
+        min-width: auto;
     }
     .promo-trait {
         height: 61px;
