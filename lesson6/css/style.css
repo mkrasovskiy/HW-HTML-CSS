@@ -362,6 +362,63 @@ body {
     font-size: 13.972px;
     line-height: 17px;
 }
+
+.catalog {
+}
+.catalog-items {
+    max-width: 652px;
+    display: flex;
+    background: #fff;
+    margin: 40px auto 40px 100px;
+}
+.catalog-items:hover {
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}
+.catalog-items-img {
+    height: 100%;
+}
+.catalog-items-content {
+    margin: 22px 97px 62px 31px;
+    max-width: 262px;
+    word-wrap: break-word;
+    overflow-x:hidden;
+}
+.catalog-items-content-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+}
+.catalog-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+.red {
+    color: #EF5B70;
+}
+.catalog-list-input {
+    width:44px;
+    height: 25px;
+    margin-left: 24px;
+    padding: 1px 0 1px 16px;
+    border: 1px solid #EAEAEA;
+    background: #FFFFFF;
+    color: #656565;
+    font-size: 18px;
+    line-height: 22px;
+}
+.cross {
+    display: block;
+    margin: 28px 22px auto auto;
+}
+
 .subscribe {
     background: linear-gradient( rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7) ), url(../img/subscribe-fon.png);
     background-repeat: no-repeat;
